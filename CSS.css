@@ -16,7 +16,7 @@ h2 {
 section {
     width: fit-content;
     min-width: 300px;
-    max-width: 600px;
+    max-width: 1000px;
     height: auto;
     padding: 25px;
     background-color: #ffffff;
@@ -25,7 +25,7 @@ section {
     margin: 30px;
     display: flex;
     flex-direction: row;
-    align-items: center;
+    align-items: flex-start;
     column-gap: 35px;
 }
 
@@ -35,4 +35,9 @@ button{
     border-radius: 5px;
     padding: 5px;
     font-weight: bold;
+    position: relative;
+}
+
+#responseText{
+    margin: 20px;
 }
