@@ -16,6 +16,7 @@ h2 {
 section {
     width: fit-content;
     min-width: 300px;
+    max-width: 600px;
     height: auto;
     padding: 25px;
     background-color: #ffffff;
