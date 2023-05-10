@@ -45,6 +45,6 @@ const trainerGenerator = {
 function responseFunction() {
     let selectedRegion = trainerGenerator.randomRegion()
     let doc = document.getElementById("responseText");
-    doc.innerHTML = `You are a ${trainerGenerator.randomTrainer()} in the ${selectedRegion} region and your starter pokemon is ${trainerGenerator.randomPokemon(selectedRegion)}`;
+    doc.innerHTML = `You are a ${trainerGenerator.randomTrainer()}, \nIn the ${selectedRegion} region, \nand your starter pokemon is ${trainerGenerator.randomPokemon(selectedRegion)}`;
 };
 

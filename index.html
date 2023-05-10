@@ -7,18 +7,24 @@
     <body>
         <main>
             <section id="section01">
+                <h2>Random Pokemon <br> path Generator!!</h2>
                 <div>
-                    <button onclick=responseFunction()>Generate</button>
+                    <button onclick={responseFunction()}>Generate</button>
                 </div>
-            <main id="responseSpace">
-                <h2>Response</h2>
+                <main id="responseSpace">
                 <div id="responseText">
-                        <p>Please enable javascript for this site.</p>
+                        <p id="JScheck">Please enable javascript for this site.</p>
                     </div>
                 </main>
             </section>
         </main>
     </body>
     <footer>
+        <script>
+            function JSCheck(){
+                document.getElementById("JScheck").innerText="Select Generate!";
+            };
+            JSCheck()
+        </script>
     </footer>
 </HTML>
